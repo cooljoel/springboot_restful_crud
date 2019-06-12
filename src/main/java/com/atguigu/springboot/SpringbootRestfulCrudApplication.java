@@ -6,11 +6,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.web.servlet.View;
 import org.springframework.web.servlet.ViewResolver;
 
-import javax.naming.Context;
-import javax.naming.Name;
-import javax.naming.NamingException;
-import javax.naming.spi.ResolveResult;
-import javax.naming.spi.Resolver;
 import java.util.Locale;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
